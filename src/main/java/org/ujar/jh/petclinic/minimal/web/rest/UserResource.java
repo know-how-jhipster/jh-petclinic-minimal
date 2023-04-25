@@ -3,7 +3,6 @@ package org.ujar.jh.petclinic.minimal.web.rest;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.*;
-import java.util.Collections;
 import javax.validation.Valid;
 import javax.validation.constraints.Pattern;
 import org.slf4j.Logger;
@@ -60,8 +59,7 @@ import tech.jhipster.web.util.ResponseUtil;
 @RequestMapping("/api/admin")
 public class UserResource {
 
-    private static final List<String> ALLOWED_ORDERED_PROPERTIES = Collections.unmodifiableList(
-        Arrays.asList(
+    private static final List<String> ALLOWED_ORDERED_PROPERTIES = List.of(
             "id",
             "login",
             "firstName",
@@ -73,7 +71,6 @@ public class UserResource {
             "createdDate",
             "lastModifiedBy",
             "lastModifiedDate"
-        )
     );
 
     private final Logger log = LoggerFactory.getLogger(UserResource.class);

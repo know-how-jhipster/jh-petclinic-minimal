@@ -1,5 +1,5 @@
 {
-  "name": "jh-minimal-petclinic",
+  "name": "@know-how-jhipster/jh-minimal-petclinic",
   "version": "23.0.0",
   "private": true,
   "description": "Description for petclinic",

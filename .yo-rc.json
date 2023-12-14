@@ -30,7 +30,7 @@
     "microfrontends": [],
     "nativeLanguage": "en",
     "otherModules": [],
-    "packageName": "org.ujar.jh.petclinic.minimal",
+    "packageName": "dev.knowhowto.jh.petclinic.minimal",
     "pages": [],
     "prodDatabaseType": "mariadb",
     "reactive": false,
